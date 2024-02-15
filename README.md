@@ -103,6 +103,9 @@ In absolute terms, of those predicted to stay or depart, 348 employees were corr
 
 ## Visualization: ROC and AUC
 The model's diagnostic prowess is encapsulated in a ROC curve visualization, complemented by an AUC metric. The ROC curve illustrates the model's competence in distinguishing between employees likely to leave or stay. Although our model doesn't exhibit the ideal 'right angle' ascent, the rapid initial climb and subsequent sweep to the right suggest commendable predictive capability, corroborated by an AUC of approximately 0.79.
+
+<img src="https://github.com/andinetM/Employee-Retention/blob/main/leogit_model_ROC_Rplot.png" align="center" height="350" width="500"/>
+
 ```
 # Logistic regression AUC
 > prediction(glm.probs, test$`Leaving the company`) %>% +   performance(measure = "auc") %>% +   .@y.values
