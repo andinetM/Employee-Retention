@@ -1,6 +1,6 @@
 ## Employee Retention Prediction Model for a Pharmaceutical Company
 ## Introduction
-In this report, we detail the development of a logistic regression-based Employee Retention Prediction Model for a pharmaceutical company. This model is designed to predict the likelihood of employees leaving the company, utilizing a dataset that encapsulates 32 variables across a total workforce of 1,424 individuals.
+In this report, we detail the development of a logistic regression-based Employee Retention Prediction Model for a pharmaceutical company. This model is designed to predict the likelihood of employees leaving the company, utilizing a dataset that encapsulates 32 variables across a total workforce of 1,424 individuals. To facilitate our analysis, we employed a suite of R packages adept at data manipulation, visualization, and modeling, including nnet for neural networks, tidyverse for data manipulation, modelr for providing easy pipeline modeling functions, broom for tidying model outputs, readxl for reading Excel files, caTools for data splitting, and ROCR for visualizing model performance.
 
 ```
 tibble [1,424 x 32] (S3: tbl_df/tbl/data.frame)
